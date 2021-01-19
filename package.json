@@ -1,0 +1,24 @@
+{
+  "name": "twisted-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrome tester",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjmccaskill/palindrome.git"
+  },
+  "keywords": [
+    "palindorme",
+    "javascript",
+    "learn-enough"
+  ],
+  "author": "CJ McCaskill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjmccaskill/palindrome/issues"
+  },
+  "homepage": "https://github.com/cjmccaskill/palindrome#readme"
+}
