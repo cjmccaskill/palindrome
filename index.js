@@ -9,14 +9,14 @@ String.prototype.reverse = function () {
 function Phrase(content) {
   this.content = content;
 
-  // Returns the string in lowerCase format
-  this.processor = function (string) {
-    return string.toLowerCase();
-  };
-
   // Returns content processed for palindrome testing
   this.processedContent = function processedContent() {
-    return this.processor(this.content);
+    return this.letters().toLowerCase();
+  };
+
+  // Returns the letters in the content.
+  this.letters = function letters() {
+    return (this.content.match(/[a-z]/gi) || []).join("");
   };
 
   // Returns true is the phrase is palindrome, flase otherwise.
